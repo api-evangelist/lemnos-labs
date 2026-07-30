@@ -1,8 +1,32 @@
 aid: lemnos-labs
 name: Lemnos Labs
-description: 'Lemnos Labs is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Lemnos Labs, Inc. is an early-stage deeptech venture capital firm that invests at
+  the earliest phases of hardware company formation, helping founders better
+  understand their customer, anticipate problems, and leverage their assets. Lemnos
+  contributes engineering, manufacturing, marketing, and financial capital alongside
+  the check, and deliberately keeps a minimal public presence — its site is a single
+  page that lists only the active portfolio. That portfolio spans robotics and
+  autonomy (Built Robotics, Fort Robotics, Path Robotics, Scythe Robotics, Simbe
+  Robotics, Petra), agricultural technology (FarmWise, Ceres Imaging), autonomous
+  cargo aviation (Elroy Air), space data and precise positioning (Spire, Swift
+  Navigation), simulation (Duality), video analytics (Lumeo), and physical security
+  (Rhombus). Lemnos itself publishes no API, developer portal, SDK, or
+  machine-readable specification; it is catalogued in the API Evangelist network as a
+  venture-capital entity whose value to the network is its portfolio graph — several
+  of its companies are meaningful API providers in their own right.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://lemnos.vc/lemnos-anvil-logo-transp.png
 url: https://raw.githubusercontent.com/api-evangelist/lemnos-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +36,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Venture Capital
+- Deeptech
+- Hardware
+- Robotics
+- Seed Stage
+- Investors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,16 @@ maintainers:
 common:
 - type: Website
   url: https://lemnos.vc
+- type: Portfolio
+  url: portfolio/lemnos-labs-portfolio.yml
+- type: DomainSecurity
+  url: security/lemnos-labs-domain-security.yml
+- type: WellKnown
+  url: well-known/lemnos-labs-well-known.yml
+- type: LLMsTxt
+  url: llms/lemnos-labs-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
