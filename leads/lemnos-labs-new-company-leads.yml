@@ -1,0 +1,102 @@
+generated: '2026-07-22'
+method: derived
+source_vc: lemnos-labs
+leads:
+- name: Petra
+  url: https://petra.cc
+  suggested_slug: petra
+  sector: robotics-underground-construction
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Built Robotics
+  url: https://www.builtrobotics.com
+  suggested_slug: built-robotics
+  sector: autonomous-heavy-equipment
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Byte
+  url: https://bytetechnology.co
+  suggested_slug: byte
+  sector: robotics
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Ceres Imaging
+  url: https://www.ceresimaging.net
+  suggested_slug: ceres-imaging
+  sector: agriculture-aerial-imagery
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Duality
+  url: https://www.duality.ai
+  suggested_slug: duality
+  sector: simulation-digital-twin
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Fort Robotics
+  url: https://www.fortrobotics.com
+  suggested_slug: fort-robotics
+  sector: robotics-safety-security
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Lumeo
+  url: https://lumeo.com
+  suggested_slug: lumeo
+  sector: video-analytics
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Pabellon
+  url: null
+  suggested_slug: pabellon
+  sector: unknown
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Picomes
+  url: https://www.picomes.com
+  suggested_slug: picomes
+  sector: robotics
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Rhombus
+  url: https://www.rhombus.com
+  suggested_slug: rhombus
+  sector: physical-security-video-surveillance
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Scythe Robotics
+  url: https://www.scytherobotics.com
+  suggested_slug: scythe-robotics
+  sector: autonomous-landscaping-robotics
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Simbe Robotics
+  url: https://www.simberobotics.com
+  suggested_slug: simbe-robotics
+  sector: retail-robotics
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Swift Navigation
+  url: https://www.swiftnav.com
+  suggested_slug: swift-navigation
+  sector: precise-positioning-gnss
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
+- name: Volition
+  url: https://www.govolition.com
+  suggested_slug: volition
+  sector: deeptech
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false

@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probes of https://lemnos.vc
+host: https://lemnos.vc
+notes: >-
+  Lemnos Labs operates a single static marketing page and publishes no API host, so
+  there is no second base host to probe. Every /.well-known/ discovery document
+  returned 404; the site does not even serve a robots.txt. Recorded as honest
+  negative results — nothing was found and nothing was fabricated.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404

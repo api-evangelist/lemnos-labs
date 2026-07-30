@@ -1,0 +1,176 @@
+generated: '2026-07-19'
+method: searched
+source: https://lemnos.vc
+notes: Harvested verbatim from the single-page lemnos.vc site, which renders the active portfolio as a
+  grid of logo tiles linking to each company's website. The site publishes no descriptions, sectors, stages,
+  or exit history, so sectors below are derived from each company's own public positioning and are marked
+  as such. Exited / historical investments are not published by Lemnos and are therefore absent here.
+summary:
+  portfolio_total: 19
+  in_network: 5
+  api_providers: 0
+  missing: 14
+  stubs_created: 0
+companies:
+- name: Petra
+  url: https://petra.cc
+  sector: robotics-underground-construction
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: petra
+  is_api_provider: false
+- name: Built Robotics
+  url: https://www.builtrobotics.com
+  sector: autonomous-heavy-equipment
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: built-robotics
+  note: Distinct from the network repo all/built (Built Technologies, construction finance) — do not conflate.
+  is_api_provider: false
+- name: Byte
+  url: https://bytetechnology.co
+  sector: robotics
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: byte
+  is_api_provider: false
+- name: Ceres Imaging
+  url: https://www.ceresimaging.net
+  sector: agriculture-aerial-imagery
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: ceres-imaging
+  is_api_provider: false
+- name: Duality
+  url: https://www.duality.ai
+  sector: simulation-digital-twin
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: duality
+  is_api_provider: false
+- name: Elroy Air
+  url: https://elroyair.com
+  sector: autonomous-cargo-aviation
+  status: active
+  source: https://lemnos.vc
+  slug: elroy-air
+  in_network: true
+  matched_by: domain
+  is_api_provider: false
+- name: FarmWise
+  url: https://farmwiselabs.com
+  sector: agriculture-robotics
+  status: active
+  source: https://lemnos.vc
+  slug: farmwise
+  in_network: true
+  matched_by: name-slug
+  is_api_provider: false
+- name: Fort Robotics
+  url: https://www.fortrobotics.com
+  sector: robotics-safety-security
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: fort-robotics
+  is_api_provider: false
+- name: Lumeo
+  url: https://lumeo.com
+  sector: video-analytics
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: lumeo
+  is_api_provider: false
+- name: Hyphen
+  url: https://usehyphen.com
+  sector: food-robotics
+  status: active
+  source: https://lemnos.vc
+  in_network: true
+  note: Distinct from the network repo all/hyphen (gethyphen.com, employee engagement, acquired by Betterworks)
+    — do not conflate.
+  slug: hyphen
+  is_api_provider: false
+  matched_by: name-slug
+- name: Pabellon
+  url: null
+  sector: unknown
+  status: stealth
+  source: https://lemnos.vc
+  in_network: false
+  note: Listed on the site as in stealth mode with no outbound link.
+  is_api_provider: false
+  suggested_slug: pabellon
+- name: Path Robotics
+  url: https://www.path-robotics.com
+  sector: robotics-welding
+  status: active
+  source: https://lemnos.vc
+  slug: path-robotics
+  in_network: true
+  matched_by: domain
+  is_api_provider: false
+- name: Picomes
+  url: https://www.picomes.com
+  sector: robotics
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: picomes
+  is_api_provider: false
+- name: Rhombus
+  url: https://www.rhombus.com
+  sector: physical-security-video-surveillance
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: rhombus
+  is_api_provider: false
+- name: Scythe Robotics
+  url: https://www.scytherobotics.com
+  sector: autonomous-landscaping-robotics
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: scythe-robotics
+  is_api_provider: false
+- name: Simbe Robotics
+  url: https://www.simberobotics.com
+  sector: retail-robotics
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: simbe-robotics
+  is_api_provider: false
+- name: Spire
+  url: https://spire.com
+  sector: space-data-nanosatellites
+  status: active
+  source: https://lemnos.vc
+  slug: spire-global
+  in_network: true
+  matched_by: domain
+  note: Distinct from the network repo all/spire (SPIFFE SPIRE workload identity) — do not conflate.
+  is_api_provider: false
+- name: Swift Navigation
+  url: https://www.swiftnav.com
+  sector: precise-positioning-gnss
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: swift-navigation
+  is_api_provider: false
+- name: Volition
+  url: https://www.govolition.com
+  sector: deeptech
+  status: active
+  source: https://lemnos.vc
+  in_network: false
+  suggested_slug: volition
+  is_api_provider: false
