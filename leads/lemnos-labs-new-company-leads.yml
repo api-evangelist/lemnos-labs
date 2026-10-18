@@ -1,4 +1,4 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: lemnos-labs
 leads:
@@ -6,13 +6,6 @@ leads:
   url: https://petra.cc
   suggested_slug: petra
   sector: robotics-underground-construction
-  source_vc: lemnos-labs
-  source: https://lemnos.vc
-  stub_created: false
-- name: Built Robotics
-  url: https://www.builtrobotics.com
-  suggested_slug: built-robotics
-  sector: autonomous-heavy-equipment
   source_vc: lemnos-labs
   source: https://lemnos.vc
   stub_created: false
@@ -37,6 +30,13 @@ leads:
   source_vc: lemnos-labs
   source: https://lemnos.vc
   stub_created: false
+- name: FarmWise
+  url: https://farmwiselabs.com
+  suggested_slug: farmwiselabs-com
+  sector: agriculture-robotics
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
 - name: Fort Robotics
   url: https://www.fortrobotics.com
   suggested_slug: fort-robotics
@@ -51,8 +51,15 @@ leads:
   source_vc: lemnos-labs
   source: https://lemnos.vc
   stub_created: false
+- name: Hyphen
+  url: https://usehyphen.com
+  suggested_slug: usehyphen-com
+  sector: food-robotics
+  source_vc: lemnos-labs
+  source: https://lemnos.vc
+  stub_created: false
 - name: Pabellon
-  url: null
+  url: ''
   suggested_slug: pabellon
   sector: unknown
   source_vc: lemnos-labs
@@ -65,31 +72,10 @@ leads:
   source_vc: lemnos-labs
   source: https://lemnos.vc
   stub_created: false
-- name: Rhombus
-  url: https://www.rhombus.com
-  suggested_slug: rhombus
-  sector: physical-security-video-surveillance
-  source_vc: lemnos-labs
-  source: https://lemnos.vc
-  stub_created: false
 - name: Scythe Robotics
   url: https://www.scytherobotics.com
   suggested_slug: scythe-robotics
   sector: autonomous-landscaping-robotics
-  source_vc: lemnos-labs
-  source: https://lemnos.vc
-  stub_created: false
-- name: Simbe Robotics
-  url: https://www.simberobotics.com
-  suggested_slug: simbe-robotics
-  sector: retail-robotics
-  source_vc: lemnos-labs
-  source: https://lemnos.vc
-  stub_created: false
-- name: Swift Navigation
-  url: https://www.swiftnav.com
-  suggested_slug: swift-navigation
-  sector: precise-positioning-gnss
   source_vc: lemnos-labs
   source: https://lemnos.vc
   stub_created: false

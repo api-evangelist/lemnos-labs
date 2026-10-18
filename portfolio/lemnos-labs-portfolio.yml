@@ -7,9 +7,9 @@ notes: Harvested verbatim from the single-page lemnos.vc site, which renders the
   as such. Exited / historical investments are not published by Lemnos and are therefore absent here.
 summary:
   portfolio_total: 19
-  in_network: 5
-  api_providers: 0
-  missing: 14
+  in_network: 7
+  api_providers: 1
+  missing: 12
   stubs_created: 0
 companies:
 - name: Petra
@@ -25,10 +25,11 @@ companies:
   sector: autonomous-heavy-equipment
   status: active
   source: https://lemnos.vc
-  in_network: false
-  suggested_slug: built-robotics
+  in_network: true
   note: Distinct from the network repo all/built (Built Technologies, construction finance) — do not conflate.
   is_api_provider: false
+  slug: built-robotics
+  matched_by: domain
 - name: Byte
   url: https://bytetechnology.co
   sector: robotics
@@ -67,10 +68,10 @@ companies:
   sector: agriculture-robotics
   status: active
   source: https://lemnos.vc
-  slug: farmwise
-  in_network: true
-  matched_by: name-slug
+  in_network: false
   is_api_provider: false
+  x-name-collision: farmwise
+  suggested_slug: farmwiselabs-com
 - name: Fort Robotics
   url: https://www.fortrobotics.com
   sector: robotics-safety-security
@@ -92,12 +93,12 @@ companies:
   sector: food-robotics
   status: active
   source: https://lemnos.vc
-  in_network: true
+  in_network: false
   note: Distinct from the network repo all/hyphen (gethyphen.com, employee engagement, acquired by Betterworks)
     — do not conflate.
-  slug: hyphen
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: hyphen
+  suggested_slug: usehyphen-com
 - name: Pabellon
   url: null
   sector: unknown
@@ -129,9 +130,10 @@ companies:
   sector: physical-security-video-surveillance
   status: active
   source: https://lemnos.vc
-  in_network: false
-  suggested_slug: rhombus
-  is_api_provider: false
+  in_network: true
+  is_api_provider: true
+  slug: rhombus-systems
+  matched_by: domain
 - name: Scythe Robotics
   url: https://www.scytherobotics.com
   sector: autonomous-landscaping-robotics
@@ -145,9 +147,10 @@ companies:
   sector: retail-robotics
   status: active
   source: https://lemnos.vc
-  in_network: false
-  suggested_slug: simbe-robotics
+  in_network: true
   is_api_provider: false
+  slug: simbe-robotics
+  matched_by: domain
 - name: Spire
   url: https://spire.com
   sector: space-data-nanosatellites
@@ -163,9 +166,10 @@ companies:
   sector: precise-positioning-gnss
   status: active
   source: https://lemnos.vc
-  in_network: false
-  suggested_slug: swift-navigation
+  in_network: true
   is_api_provider: false
+  slug: swift-navigation
+  matched_by: domain
 - name: Volition
   url: https://www.govolition.com
   sector: deeptech
